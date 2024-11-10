@@ -6,7 +6,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", serif;
+    font-style: normal;
     color: #333;
     line-height: 1.6;
 }
@@ -82,8 +83,8 @@ header .appointment-btn {
 
 .services-container {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 .service {
@@ -92,8 +93,8 @@ header .appointment-btn {
 }
 
 .service img {
-    width: 100px;
-    margin-bottom: 10px;
+    width: 80px;
+    margin-bottom: 20px;
 }
 
 /* About Us Section */
@@ -108,11 +109,20 @@ header .appointment-btn {
     background-color: #f9f9f9;
     text-align: center;
 }
-
+.contact-section{
+    display: flex;
+    justify-content:space-around;
+}
 /* Contact Section */
 #contact {
     padding: 50px 20px;
-    text-align: center;
+    text-align: left;
+}
+
+/*Google maps section*/
+#google-maps{
+    padding: 50px 20px;
+    text-align: right;
 }
 
 /* Footer */
